@@ -1,6 +1,6 @@
 # Recommendation Engine MVP
 
-Welcome to the **Recommendation Engine MVP** ,a minimum viable product for a personalized recommendation system designed for a commerce startup.  
+Welcome to the **Recommendation Engine MVP** , a minimum viable product for a personalized recommendation system designed for a commerce startup.  
 This project simulates TikTok-like recommendations for shopping content using dummy data. The system ranks posts, predicts engagement, and personalizes feeds to enhance user experience.
 
 ---
@@ -31,7 +31,6 @@ recommendation-engine/
 ├── requirements.txt # Python dependencies
 └── README.md # Project overview
 
-
 ---
 
 ## ⚙️ Features
@@ -57,22 +56,58 @@ recommendation-engine/
 
 1. Clone the repository:
 
-```bash
 git clone https://github.com/fav13-hub/recommendation-engine.git
 cd recommendation-engine
-Install dependencies:
 
-bash
-Copy code
+Install dependencies:
 pip install -r requirements.txt
+
+
 🚀 Usage
 Run the recommendation system using:
 
-bash
-Copy code
+
 python main.py
 The system reads the CSV files in the data/ folder
 
 Computes scores for each item
 
-Produces a ranked list of items based on engagement and time-based boosts
+Produces a ranked list of items based on engagement and hot-start logic
+
+📝 Next Steps / Roadmap
+Connect to real backend database to use live user interactions
+
+Implement user-specific recommendation feeds
+
+Explore collaborative filtering and matrix factorization
+
+Experiment with deep learning models (Transformers, Deep Interest Networks)
+
+Add location-based personalization to suggest vendors/items nearby
+
+Integrate analytics to measure recommendation performance
+
+📌 Notes
+All data currently is simulated.
+
+This MVP focuses on demonstrating the core recommendation logic.
+
+The code is structured for easy expansion as real user data becomes available.
+
+📚 References / Inspiration
+TikTok-style recommendation systems
+
+Collaborative Filtering, Content-Based Filtering
+
+Matrix Factorization and Embeddings
+
+Deep Interest Networks for behavioral modeling
+
+💡 Key Takeaways
+This project demonstrates how a small, rule-based system can:
+
+Simulate personalized recommendations
+
+Serve as a foundation for machine learning models
+
+Provide early insights into user engagement before connecting to real backend data
