@@ -63,9 +63,10 @@ Install dependencies:
 pip install -r requirements.txt
 
 
-🚀 Usage
-Run the recommendation system using:
 
+## 🚀 Usage
+
+Run the recommendation system using:
 
 python main.py
 The system reads the CSV files in the data/ folder
@@ -74,7 +75,10 @@ Computes scores for each item
 
 Produces a ranked list of items based on engagement and hot-start logic
 
-📝 Next Steps / Roadmap
+
+
+## 📝 Next Steps / Roadmap
+
 Connect to real backend database to use live user interactions
 
 Implement user-specific recommendation feeds
@@ -87,14 +91,20 @@ Add location-based personalization to suggest vendors/items nearby
 
 Integrate analytics to measure recommendation performance
 
-📌 Notes
+
+
+## 📌 Notes
+
 All data currently is simulated.
 
 This MVP focuses on demonstrating the core recommendation logic.
 
 The code is structured for easy expansion as real user data becomes available.
 
-📚 References / Inspiration
+
+
+## 📚 References / Inspiration
+
 TikTok-style recommendation systems
 
 Collaborative Filtering, Content-Based Filtering
@@ -103,7 +113,10 @@ Matrix Factorization and Embeddings
 
 Deep Interest Networks for behavioral modeling
 
-💡 Key Takeaways
+
+
+## 💡 Key Takeaways
+
 This project demonstrates how a small, rule-based system can:
 
 Simulate personalized recommendations
