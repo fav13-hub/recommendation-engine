@@ -12,4 +12,4 @@ print(hot_result)
 
 print("\n📊 RECOMMENDED FEED")
 feed = get_ranked_items()
-print(feed.head())
+print(feed.head()) 
