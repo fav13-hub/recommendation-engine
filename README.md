@@ -21,6 +21,7 @@ This project focuses on **data-driven recommendations** and sets up the infrastr
 ## 📂 Folder Structure
 
 recommendation-engine/
+
 ├── data/
 
 │ ├── interactions.csv # Simulated user actions: view, like, skip, orders, watch_time
