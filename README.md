@@ -22,13 +22,21 @@ This project focuses on **data-driven recommendations** and sets up the infrastr
 
 recommendation-engine/
 ├── data/
+
 │ ├── interactions.csv # Simulated user actions: view, like, skip, orders, watch_time
+
 │ ├── items.csv # Item metadata: item_id, name, category, etc.
+
 │ └── users.csv # User metadata: user_id, location, subscription, etc.
+
 ├── recommender.py # Core functions for computing item scores
+
 ├── hot_start.py # Optional module for viral hot-start logic
+
 ├── main.py # Entry point to run the recommendation system
+
 ├── requirements.txt # Python dependencies
+
 └── README.md # Project overview
 
 ---
